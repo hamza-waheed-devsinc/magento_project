@@ -3,7 +3,7 @@ namespace Test\HelloWorld\Controller\Index;
 
 class Test extends \Magento\Framework\App\Action\Action
 {
-    protected $_pageFactory;
+    protected $_pageFactory ;
 
     public function __construct(
         \Magento\Framework\App\Action\Context $context,
