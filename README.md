@@ -230,7 +230,6 @@ volumes:
  rsync -a /tmp/projectfolder/ /var/www/html/
  rm -rf /tmp/projectfolder/
 ```
-- Create a new terminal session in the root of project and run the command ` composer install ` to install the required dependencies. 
 - Switch to fpm shell terminal and install magento2 using its command 
 ```
 bin/magento setup:install \
