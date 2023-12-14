@@ -87,8 +87,8 @@ Follow the following steps to setup Magento in Ubuntu
 - Follow the official [guide](https://docs.warden.dev/environments/magento2.html) provided by Warden to install Magento2 step by step. Below are the steps to install a boiler plate scratch Magento2 project.
 - Make a new project directory in Sites folder using the following commands
 ```
- mkdir -p ~/Sites/exampleproject
- cd ~/Sites/exampleproject
+ mkdir -p ~/Sites/projectfolder
+ cd ~/Sites/projectfolder
 ```
 - Run ` warden env-init projectfolder magento2 `
 - The result of this command is a .env file in the project root as in the below format
