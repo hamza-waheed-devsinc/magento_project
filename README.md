@@ -332,7 +332,7 @@ sudo chmod -R 777 html/pub/static
 
 ## For Ooredoo setup:
 - Follow the above installation guide to create a scratch project (If on mac, set the project name as "oredoolocal")
-- Download the dump from the [link](Download and restore the dump files https://drive.google.com/file/d/1-HtVLdD24kR--uC1yIyYoOZQqBZHETSS/view?usp=sharing) and restore it in db. After dumping, query in core_config_data and delete the base_static_url for both secure and unsecure entries. Also delete duplicate entries of base_url and just keep two entries as secure/base_url with https:// and unsecure url with http://
+- Download the dump from the [link](https://drive.google.com/file/d/1-HtVLdD24kR--uC1yIyYoOZQqBZHETSS/view?usp=sharing) and restore it in db. After dumping, query in core_config_data and delete the base_static_url for both secure and unsecure entries. Also delete duplicate entries of base_url and just keep two entries as secure/base_url with https:// and unsecure url with http://
 - Setup git and fetch branch "marketplace-upgrade" after commiting local changes on the main branch.
 - Keep .env and docker-compose.yml untracked.
 - Run `composer install`
